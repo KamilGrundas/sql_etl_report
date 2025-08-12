@@ -1,0 +1,5 @@
+Komentarz do zadania – ETL
+
+Było to moje pierwsze podejście do pracy w SSIS i Visual Studio w tym kontekście. Nie mam jeszcze doświadczenia w tej technologii, dlatego rozwiązanie może nie odzwierciedlać wszystkich najlepszych praktyk.
+
+Zadanie potraktowałem jednak jako okazję, aby udowodnić, że potrafię szybko przystosować się do nowych narzędzi i rozwiązać problem mimo braku wcześniejszego obycia z danym środowiskiem. 

@@ -1,0 +1,13 @@
+Komentarz do zadania - Raporty
+
+Dane kursów walut pobrałem z SQL Server (z danych wcześniej pobranych przez ETL) i dodałem tabelę dat. Dzięki temu przy większej ilości danych można łatwiej filtrować i analizować wyniki.
+
+Do pokazania zmian kursów w czasie wybrałem wykres liniowy, ponieważ jest naturalną formą prezentacji trendów, dobrze pokazuje krótkoterminowe wahania i jest powszechnie używany do kursów walut.
+
+Średnią kroczącą z ostatniego miesiąca policzyłem w DAX, aby odfiltrować szum dzienny i pokazać wyraźniejszy trend.
+
+Kolory dobrałem tak, by łatwo odróżnić kurs rzeczywisty (niebieski z markerami) od średniej kroczącej (półprzezroczysty żółty).
+
+Do filtrowania użyłem slicerów, bo to prostsze i bardziej intuicyjne niż filtry.
+
+Dodałem też dynamiczny tytuł wykresu, który jasno wskazuje wybraną walutę i okres, a dzięki temu wykres można łatwo wykorzystać w prezentacjach lub innych raportach bez dodatkowych opisów.
